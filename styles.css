@@ -1,31 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 
 nav {
-    
-    
-}
-#content {
-    text-align: center;
-    margin-top:200px;
-}
-
-nav {
-    position:absolute;
-    margin-top:2em;
+    position:fixed;
+    padding-top:1em;
     width:100%;
     text-align: center;
     border-bottom-style: solid;
     border-bottom-color: lightgrey;
     border-bottom-width: thin;
+    background-color: rgba(255,255,255,0.7);
+}
+
+#content {
+    padding-top: 150px;
+    text-align:center
 }
 
 #bannerlogo {
     width: 200px;
-    margin:1em;
+    margin-bottom:3em;
+    padding:inherit;
 }
 
 #welcome {
-    margin-top;
+    margin:auto;
     font-family: monospace;
     font-size:20px;
 }
